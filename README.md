@@ -1,5 +1,5 @@
 
-# 🚀 Multithreaded Proxy Web Server in C++
+# Multithreaded Proxy Web Server in C++
 
 [![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg?logo=c%2B%2B)](https://isocpp.org/)
 [![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)](https://www.microsoft.com/windows)
@@ -13,7 +13,7 @@ A high-performance, multithreaded HTTP proxy server built from scratch in **C++*
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature                   | Description                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
@@ -27,7 +27,7 @@ A high-performance, multithreaded HTTP proxy server built from scratch in **C++*
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ```text
      Client(s)
@@ -50,7 +50,7 @@ A high-performance, multithreaded HTTP proxy server built from scratch in **C++*
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```bash
 MultiThreaded_Proxy_Web_Server/
@@ -77,15 +77,15 @@ MultiThreaded_Proxy_Web_Server/
 
 ---
 
-## ⚙️ Build Instructions
+## Build Instructions
 
-### 🛠 Requirements
+### Requirements
 
 - OS: **Windows**
 - Compiler: **g++ (MinGW or Code::Blocks)**
 - Dependency: `-lws2_32` (Winsock2 library)
 
-### 🔨 Build Commands
+### Build Commands
 
 ```bash
 # Compile the server
